@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>xyl.finance - freedom finance</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+		
+		<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+		<link rel="stylesheet" href="css/nouislider.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+  <div class="main-section">
+
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">xyl.finance</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="dropdown nav-item">
+              <a href="#" class="nav-link icon d-flex align-items-center">
+                <i class="ion-ios-apps mr-2"></i>
+                Github
+              </a>
+            </li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+  	<section class="hero-wrap js-fullheight img" style="background-image: url();">
+  		<div class="overlay"></div>
+  		<div class="container">
+  			<div class="row description js-fullheight align-items-center justify-content-center">
+  				<div class="col-md-8 text-center">
+  					<div class="text">
+  						<h1>xyl finance</h1>
+  						<h4 class="mb-5">Smart Yield Farming beta v1 1.0.0<br><br>Farming xyl v1 open 6:30 AM
+Monday, August 17, 2020
+Coordinated Universal Time (UTC)</h4>
+  						<p><a type="button" class="enableEthereumButton"><i class="btn btn-primary px-4 py-3">Connect wallet</i></a></p>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+
+
+		<section class="ftco-section" id="buttons">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md-12">
+						<h2 class="heading-section">
+							<input type ="number" placeholder="Max 100 xyl" value="100" id="amount_stake"/>
+							<button onclick="stakeYumy()">Join farming xyl v1</button>
+							<br><br>
+							<strong>xyl farming v1. farming xyl token</strong>
+						</h2>
+					</div>
+					<div class="col-md-12 mb-2">
+			<p><a type="button" class="checkBalanceButton"><i class="btn btn-info btn-lg btn-block">Check your balance</i></a></p>
+			<p><a type="button" class="getBalanceButton"><i class="btn btn-info btn-lg btn-block">Get your farming stats</i></a></p>
+			<p><a type="button" class="claimxylButton"><i class="btn btn-info btn-lg btn-block">Claim your farming</i></a></p>
+            <h2 class="heading-section">
+			<small><b>Outputs data</b></small>
+			<br>
+			<small><b>Your Address: <span class="showAccount"></span></b></small>
+			<br>
+			<small><b>Your Balance: <span class="showBalanceCheck"></span></b></small>
+			<br>
+			<small><b>Farming Balance: <span class="showBalance"></span></b></small>
+			<br>
+			<small><b>Farming Time: <span class="showTime"></span></b></small>
+			<br><br>
+			<small>Farming for minimum 1 day to be eligible for claiming rewards.</small>
+			<br><br><br>
+			<small><b>Media</b></small>
+			<p><a href="https://t.me/" type="button" class="claimxylButton"><i class="btn btn-info btn-lg btn-block">telegram</i></a></p>
+			<p><a href="https://etherscan.io/token/" type="button" class="claimxylButton"><i class="btn btn-info btn-lg btn-block">Etherscan</i></a></p>
+			<p><a href="http://uniswap.info/token/" type="button" class="claimxylButton"><i class="btn btn-info btn-lg btn-block">Uniswap</i></a></p>
+			
+
+						
+					</div>
+				</div>
+			</div>
+	  </section>
+	  <!-- - - - - -end- - - - -  -->
+
+	  <section class="ftco-section" id="notifications">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="heading-section mb-4">Notifications</h2>
+						<div class="alert alert-info">
+			        <div class="container">
+			        	<div class="d-flex">
+				          <div class="alert-icon">
+				            <i class="ion-ios-information-circle-outline"></i>
+				          </div>
+				          <p class="mb-0 ml-2"><b>Info alert:</b>There is no pre-sale or ICO for xyl tokens. The protocol is complete at launch and xyl
+tokens can be obtained from the liquidity pool on uniswap. Initially 100% of the total supply will
+be used to create the liquidity pool. The remaining 100% of the total supply will be sold to the
+liquidity pool over the course of the Genesis Era.</p>
+				        </div>
+			          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			            <span aria-hidden="true"><i class="ion-ios-close"></i></span>
+			          </button>
+			        </div>
+			      </div>
+					</div>
+				</div>
+			</div>
+	  </section>
+	  <!-- - - - - -end- - - - -  -->
+		
+
+	  <footer class="ftco-section ftco-section-2">
+	  	<div class="col-md-12 text-center">
+          <p class="mb-0">
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+
+            </script> All rights reserved | xyl.finance
+
+          </p>
+        </div>
+	  </footer>
+
+  </div>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/nouislider.min.js"></script>
+  <script src="js/moment-with-locales.min.js"></script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
